@@ -6,7 +6,4 @@
 # commit all ipynb results in folder_a, but not subfolder_b
 folder_a/*.ipynb
 # also don't commit results folder_a/folder_a_notebook_2.ipynb
-!folder_a/folder_a_notebook_2.ipynb
-
-# ignoring text file should be no op
-!folder_a/untitled.txt
+folder_a/folder_a_notebook_2.ipynb
